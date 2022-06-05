@@ -32,4 +32,7 @@ console.log(filePath);
 
 //Below code gives the base name
 const base = path.basename(filePath)
-console.log(base)
+console.log(base);
+
+const absolute = path.resolve(__dirname, 'test.txt')
+console.log(absolute);
