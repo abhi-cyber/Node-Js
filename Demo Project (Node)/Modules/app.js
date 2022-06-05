@@ -21,3 +21,15 @@ sayHi(names.peter)
 // You can also import arrays, dictnories, etc.
 
 {/* ------------------------------------------------------------------------------------------------------------------------------------------ */}
+// PATH Module
+
+const path = require('path')
+
+console.log(path.sep)
+
+const filePath = path.join('test.txt')
+console.log(filePath);
+
+//Below code gives the base name
+const base = path.basename(filePath)
+console.log(base)
