@@ -1,0 +1,12 @@
+Important points:-
+
+1. Node is used to build server side app.
+2. When working on Node you have no access to browser API's like DOM, Window, etc.
+3. Unlike other frameworks, in Node we are not required to update our node in existing projects which save our app from crashing.
+4. Node evaluates your code using either REPL (Read Eval Print Loop) or CLI (MAIN).
+
+# REPL 
+
+1. To use REPL write the following code in the terminal :-- node
+2. Here you can create variables, add nos., etclike in js.
+3. Ctrl+C ---> To exit the node command prompt.
