@@ -34,6 +34,6 @@ const fs = require('fs')
 //         console.log("File removed.");
 // })
 
-fs.rmdir('./TASK', (err) => {
-        console.log("Folder removed.");
-})
+// fs.rmdir('./TASK', (err) => {
+//         console.log("Folder removed.");
+// })
