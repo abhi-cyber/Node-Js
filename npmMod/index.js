@@ -1,0 +1,1 @@
+// To initalize npm in this folder run the following command in the terminal(in root folder) ---> npm init
