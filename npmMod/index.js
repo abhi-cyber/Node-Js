@@ -9,9 +9,14 @@ import chalk from 'chalk';
 //---------------------------------------  EMAIL VALIDATOR  -----------------------------------------------------
 import validator from 'validator';
 
-const res = validator.isEmail("abhiraj@chatrath.com");
-console.log(res ? chalk.green.inverse(res) : chalk.red.inverse(res));
+// const res = validator.isEmail("abhiraj@chatrath.com");
+// console.log(res ? chalk.green.inverse(res) : chalk.red.inverse(res));
 
 // ------------------------------------ LIVE VALIDATOR USING NODEMON MODULE ------------------------------
 
 // NODEMON :- It is a global package that automatically restarts the node application when there is change in the code/directory.
+// run the code with the following command --> 'nodemon index.js'
+
+const res = validator.isEmail("abhiraj@chatrathcom");
+// on changing the above value the node will restart itself
+console.log(res ? chalk.green.inverse(res) : chalk.red.inverse(res));
