@@ -20,5 +20,7 @@ const jsonData = JSON.stringify(bioData);
 
 // 3
 fs.readFile("json1.json", "utf-8", (err, data) => {
+    const orgData = JSON.parse(data);
     console.log(data);
+    console.log(orgData);
 });
