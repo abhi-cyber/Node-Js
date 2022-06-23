@@ -6,14 +6,19 @@ const bioData = {
 };
 
 // 1. Convert the obj to JSON. ==> DONE
-// 2. Add it to another file. ==> Done
-// 3. And at last readFile.
-// 4. Convert back to obj.
+// 2. Add it to another file. ==> DONE
+// 3. readFile. ==> DONE
+// 4. Convert back to objAnd at last.
 
 // 1
 const jsonData = JSON.stringify(bioData);
 
 // 2
-fs.writeFile("json1.json", jsonData, (err) => {
-  console.log("done");
+// fs.writeFile("json1.json", jsonData, (err) => {
+//   console.log("done");
+// });
+
+// 3
+fs.readFile("json1.json", "utf-8", (err, data) => {
+    console.log(data);
 });
