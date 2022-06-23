@@ -11,7 +11,21 @@
 const http = require('http');
 
 const server = http.createServer((req, res) => {
-    res.end('Request successful');
+    // console.log(req.url)
+    if(req.url == "/"){
+        res.end('This is the Home Page');
+    }
+    else if(req.url == "/about"){
+        res.end("This is the AboutUs Page.");
+    }
+    else if(req.url == "/contact"){
+        res.end("This is the ContactUs Page.");
+    }
+    else{
+        res.writeHead(404, {"Content-Type" : "text/html"}) // Defines that this is an error page and its type.
+        res.end("<h1>404 ERROR. Page does not exist.</h1>")
+    }
+    
 });
 
 server.listen(8000, "127.0.0.1", () => {
