@@ -12,7 +12,9 @@ const server = http.createServer((req, res) => {
   } else if (req.url == "/userapi") {
     fs.readFile("../UserApi/userapi.json", "utf-8", (err, data) => {
       console.log(data);
-      res.end(data);
+      // Code to call a specific field from the data first convert it into an object.
+      const objData = JSON.parse(data);
+      res.end(objData[0].name);
     });
   } else {
     res.writeHead(404, { "Content-Type": "text/html" });
