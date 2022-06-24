@@ -1,0 +1,50 @@
+[
+    {
+        "id" : 1,
+        "name" : "Abhiraj",
+        "username" : "abhi-cyber",
+        "email" : "abhirajchatrath@gmail.com",
+        "address" : {
+            "street" : "Sector 36D",
+            "suite" : 1595,
+            "city" : "Chandigarh"
+        },
+        "phone" : 8765678965
+    },
+    {
+        "id" : 2,
+        "name" : "Abhay",
+        "username" : "hi__abhay",
+        "email" : "abhayaggarwal@gmail.com",
+        "address" : {
+            "street" : "Ambala Chandigarh Expressway",
+            "suite" : 205,
+            "city" : "Ambala"
+        },
+        "phone" : 7656789087
+    },
+    {
+        "id" : 3,
+        "name" : "Vaibhav",
+        "username" : "v0nser",
+        "email" : "vaibhav@gmail.com",
+        "address" : {
+            "street" : "Chandigarh-Patiala National Highway",
+            "suite" : "Marco Block",
+            "city" : "Rajpura"
+        },
+        "phone" : 912343210
+    },
+    {
+        "id" : 4,
+        "name" : "Abhishek Thakur",
+        "username" : "hi__abhishek",
+        "email" : "abhishekthakur@gmail.com",
+        "address" : {
+            "street" : "Sector 35",
+            "suite" : 543,
+            "city" : "Chandigarh"
+        },
+        "phone" : 9456730984 
+    }
+]
